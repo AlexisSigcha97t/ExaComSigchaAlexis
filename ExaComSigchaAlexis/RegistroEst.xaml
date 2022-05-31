@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExaComSigchaAlexis.RegistroEst">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="REGISTRO ESTUDIANTE " FontSize="Medium"/>
+
+            <Entry x:Name="txtNombre" Placeholder="Ingrese su Nombre"/>
+            <Entry x:Name="txtApellido" Placeholder="Ingrese su Apellido"/>
+            <Entry x:Name="txtCurso" Placeholder="Ingrese el Curso"/>
+            <Entry x:Name="txtParalelo" Placeholder="Ingrese el Paralelo"/>
+            <Entry x:Name="txtNota" Placeholder="Ingrese su Promedio Final"/>
+
+            
+            <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked"/>
+            <Button x:Name="btnVerDatos" Text="Ver Datos" Clicked="btnVerDatos_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

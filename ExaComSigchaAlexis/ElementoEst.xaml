@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExaComSigchaAlexis.ElementoEst">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Spacing="10" Padding="10">
+                <Label x:Name="mensaje" />
+                <Label Text="Id: "/>
+                <Entry x:Name="Id" Placeholder="Id"/>
+                <Label Text="Nombre: "/>
+                <Entry x:Name="txtNombre" Placeholder="Nombre"/>
+                <Label Text="Apellido: "/>
+                <Entry x:Name="txtApellido" Placeholder="Apellido"/>
+                <Label Text="Curso: "/>
+                <Entry x:Name="txtCurso" Placeholder="Curso"/>
+                <Label Text="Paralelo: "/>
+                <Entry x:Name="txtParalelo" Placeholder="Paralelo"/>
+                <Label Text="Nota Final: "/>
+                <Entry x:Name="txtNotaFinal" Placeholder="Nota Final"/>
+                <Button x:Name="btn_actualizar" Text="Actualizar" Clicked="btn_actualizar_Clicked"/>
+                <Button x:Name="btn_eliminar" Text="Eliminar" Clicked="btn_eliminar_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

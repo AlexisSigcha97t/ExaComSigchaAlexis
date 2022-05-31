@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExaComSigchaAlexis.Elemento">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Padding="10">
+            <Label x:Name="mensaje" />
+            <Label Text="Id: "/>
+            <Entry x:Name="Id" Placeholder="Id"/>
+            <Label Text="Usuario: "/>
+            <Entry x:Name="Usuario" Placeholder="Usuario"/>
+            <Label Text="Contrasenia: "/>
+            <Entry x:Name="Contrasenia" Placeholder="Contrasenia"/>
+            <Button x:Name="btn_actualizar" Text="Actualizar" Clicked="btn_actualizar_Clicked"/>
+            <Button x:Name="btn_eliminar" Text="Eliminar" Clicked="btn_eliminar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
